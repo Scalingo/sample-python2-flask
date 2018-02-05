@@ -23,4 +23,4 @@ git push scalingo master
 
 And that's it!
 
-The application is running at this url: https://sample-python-flask.scalingo.io/
+The application is running at this URL: https://sample-python2-flask.scalingo.io/
