@@ -1,26 +1,29 @@
-Sample Application with Python and Flask
-========================================
+# Sample Application with Python and Flask
 
-Running Locally
----------------
+This sample is running on: https://python2-flask.is-easy-on-scalingo.com/
 
-```sh
+## Run Locally
+
+```shell
 virtualenv
 . bin/activate
 pip install -r requirements.txt
 python app.py
 ```
 
-Deploying on Scalingo
----------------------
+## Deploy via Git
 
 Create an application on https://scalingo.com, then:
 
-```
-git remote add scalingo git@scalingo.com:<name_of_your_app>.git
+```shell
+git remote add scalingo git@ssh.osc-fr1.scalingo.com:<name_of_your_app>.git
 git push scalingo master
 ```
 
 And that's it!
 
-The application is running at this URL: https://sample-python2-flask.scalingo.io/
+The application is running at this URL: https://<name_of_your_app>.osc-fr1.scalingo.io/
+
+## Deploy via one-click
+
+[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy)
