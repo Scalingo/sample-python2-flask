@@ -1,4 +1,4 @@
-# Sample Application with Python and Flask
+# [DEPRECATED] Sample Application with Python and Flask
 
 This sample is running on: https://python2-flask.is-easy-on-scalingo.com/
 
